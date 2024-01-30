@@ -19,4 +19,4 @@ def  get_value_to_point(point_data:gpd.GeoDataFrame, raster_list:list) -> gpd.Ge
             point_data.loc[index,os.path.basename(point_data)] = point_value
             
         # read the dataset to view the addeded columns
-        return point_data
+    return point_data

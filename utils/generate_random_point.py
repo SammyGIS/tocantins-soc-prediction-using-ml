@@ -1,6 +1,5 @@
 import random 
 from shapely import Point
-import json
 import geopandas as gpd
 
 def generate_random_points(boundary=None, num_points=None, crs=None):
