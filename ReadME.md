@@ -1,42 +1,52 @@
-## Soil Organic Carbon Prediction using Machine Learning (Regression Problem)
-### Overview
-In this comprehensive analysis, we aim to predict soil organic data using three distinct machine learning models. 
-
-The selected models are:
-1. **Random Forest Regressor**
-2. **Linear Regression**
-3. **Support Vector Regression**
+### Advanced Machine Learning for Predicting Soil Organic Carbon Levels
+#### Overview
+Embark on an end-to-end machine learning project designed to revolutionize soil organic carbon (SOC) prediction. Leveraging the power of Google Earth Engine, GEEMAP, and EE, we streamline the data collection process and automate computation of various environmental variables from diverse open-source datasets. Sophisticated techniques, including model evaluation, hyperparameter tuning, grid search, and k-fold cross-validation, are integrated to optimize our predictive models.
 
 #### Objectives
-
-The primary objectives of this analysis include:
-
-- Implementing three diverse machine learning models to predict soil organic data.
-- Evaluating the performance of each model to identify the most effective predictive approach.
-- Selecting the best predictive model based on thorough assessments.
+This comprehensive project aims to achieve the following objectives:
+- **Accurate SOC Prediction:** Utilize advanced machine learning methodologies for precise SOC level predictions.
+- **Enhanced Model Performance:** Incorporate model evaluation techniques to improve model accuracy and robustness.
+- **Optimal Model Configuration:** Select the most effective model configuration to ensure reliable SOC predictions.
+- **End-to-End Automation:** Automate data collection, extraction, and computation of environmental variables using Google Earth Engine, GEEMAP, and EE.
 
 #### Model Evaluation Parameters
-The performance of each model will be assessed using the following evaluation parameters:
-- **Mean Squared Error (MSE):** A measure of the average squared difference between predicted and actual values.
-- **R-squared (R²):** Indicates the proportion of the variance in the dependent variable that is predictable from the independent variables.
-- **Mean Absolute Error (MAE):** Represents the average absolute difference between predicted and actual values.
-- **Feature Importance:** The importance of various features will be assessed using OLS.
-- **Area Under the Curve (AUC):**  The Area Under the Curve (AUC) will be calculated to assess the overall performance of the models.
+Rigorously evaluate model performance using a comprehensive set of metrics:
+- **Mean Squared Error (MSE)** and **Mean Absolute Error (MAE):** Assess prediction accuracy and precision.
+- **R-squared (R²):** Measure the proportion of variance in SOC levels explained by independent variables.
+- **Feature Importance:** Identify significant features contributing to SOC predictions.
+- **Area Under the Curve (AUC):** Evaluate overall model performance comprehensively.
 
 #### Relationship Measurement
-- OLS will be employed to measure the relationship between the data.
-- Correlation Analysis will be used to measure the relationship
+Employ advanced techniques to understand the intricate relationship between independent variables and SOC levels:
+- **OLS Regression:** Gain insights into the linear relationship between features and SOC levels.
+- **Correlation Analysis:** Explore correlations between SOC levels and independent variables, revealing complex interactions.
 
-* Landuse Landcover
-* NDVI
-* LST
-* NDMI
-* SMI
-* soil Type
-* rainfall
-* temperature
-* slope
-* elevation
+#### Advanced Techniques
+Leverage cutting-edge techniques to optimize predictive models:
+- **Hyperparameter Tuning:** Fine-tune model parameters for optimal performance.
+- **Grid Search:** Exhaustively search parameter combinations to identify the best model configuration.
+- **k-Fold Cross-Validation:** Assess model generalization and robustness across different data splits.
 
-#### Dependent Variable
-* Collect SOC (Soil Orgnaic Carbon) sampling value
+#### Data Collection and Automation
+Automate the data collection process and computation of environmental variables using Google Earth Engine, GEEMAP, and EE:
+
+- **Open-Source Data Collection:** Collect data from various open-source repositories available through Google Earth Engine.
+- **Automated Data Extraction:** Utilize GEEMAP and EE to extract relevant data efficiently.
+- **Computation of Environmental Variables:** Automate computation of variables such as NDVI, LST, and rainfall using Google Earth Engine's processing capabilities.
+
+#### Variables
+- **Independent Variables:**
+  1. Landuse Landcover
+  2. NDVI (Normalized Difference Vegetation Index)
+  3. LST (Land Surface Temperature)
+  4. NDMI (Normalized Difference Moisture Index)
+  5. SMI (Soil Moisture Index)
+  6. Soil Type
+  7. Rainfall
+  8. Temperature
+  9. Slope
+  10. Elevation
+
+- **Dependent Variable:**
+  - Soil Organic Carbon (SOC) sampling value
+
