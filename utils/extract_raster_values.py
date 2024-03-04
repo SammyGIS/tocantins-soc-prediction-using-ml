@@ -5,7 +5,7 @@ import os
 def  get_value_to_point(point_data:gpd.GeoDataFrame, raster_list:list) -> gpd.GeoDataFrame:
     # Get the values of slope, elevation, and land use at the location of the random points
     for raster_dataset in raster_list:
-        for index, point in point_data.iterrows():
+        for _, point in point_data.iterrows():
             # Get the coordinates of the point
             x = point.geometry.x
             y = point.geometry.y
