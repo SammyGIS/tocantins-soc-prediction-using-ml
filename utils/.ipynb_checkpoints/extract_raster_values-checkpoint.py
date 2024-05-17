@@ -22,4 +22,4 @@ def  get_value_to_point(point_data:gpd.GeoDataFrame, raster_list:list) -> gpd.Ge
                 # Extract the values of slope, elevation, and land use at the location of the point
                 point_value =  raster_dataset.read(1)[row, col]
 
-    return  point_value
+            return  point_value
